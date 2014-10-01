@@ -295,7 +295,7 @@ public class FormPonto extends javax.swing.JInternalFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         this.setVisible(true);
-        JFileChooser fc = new JFileChooser();
+        JFileChooser fc = new JFileChooser("C:\\Users\\Ronan\\Desktop\\TCC\\Marcações");
         fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
         int resultado = fc.showOpenDialog(this);
         if (resultado == JFileChooser.APPROVE_OPTION) {
@@ -337,7 +337,7 @@ public class FormPonto extends javax.swing.JInternalFrame {
 
                     System.out.println("Passou " + data + " " + horario);
                     
-                    Date dataTeste = Date.valueOf(data);
+                    //Date dataTeste = Date.valueOf(data);
                     
                     System.out.println("Passou1");
                     
